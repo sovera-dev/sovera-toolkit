@@ -27,7 +27,7 @@ BINARY="pulse"
 # (bitbucket-pipelines.yml) when this script is published as a release asset. Left
 # as this literal placeholder in the source tree, in which case resolve_version
 # falls back to querying GitHub for the latest release. PULSE_VERSION always wins.
-PULSE_VERSION_DEFAULT="v0.1.2"
+PULSE_VERSION_DEFAULT="v0.1.3"
 
 # ANSI styling, disabled when stdout is not a terminal or NO_COLOR is set.
 if [ -t 1 ] && [ -z "${NO_COLOR:-}" ]; then

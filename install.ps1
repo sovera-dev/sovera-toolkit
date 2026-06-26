@@ -43,7 +43,7 @@ $Binary = 'pulse'
 # as this literal placeholder in the source tree, in which case Resolve-Version
 # falls back to querying GitHub for the latest release. -Version / $env:PULSE_VERSION
 # always wins.
-$VersionDefault = 'v0.1.2'
+$VersionDefault = 'v0.1.3'
 
 function Write-Step { param([string]$Message) Write-Host "==> $Message" -ForegroundColor Cyan }
 function Write-Done { param([string]$Message) Write-Host "OK  $Message" -ForegroundColor Green }
