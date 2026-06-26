@@ -14,8 +14,11 @@ Windows (amd64 and arm64).
 
 ### macOS / Linux (Homebrew)
 
+Pulse ships as a Cask in the `sovera-dev` tap. Recent Homebrew asks you to trust a third-party tap's cask once before installing:
+
 ```sh
-brew install sovera-dev/tap/pulse
+brew trust --cask sovera-dev/tap/pulse   # one-time, removes the "untrusted tap" error
+brew install --cask pulse
 ```
 
 ### macOS / Linux (install script)
